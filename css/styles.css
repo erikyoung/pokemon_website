@@ -15,7 +15,16 @@ body {
 .team p {
 	margin-left: 10px;
 	margin-right: 10px;
-	
+
+}
+
+.divider {
+	margin: 40px 0;
+}
+
+.mickey {
+	padding-left: 50px;
+	padding-top: 60px;
 }
 
 .navbar-wrapper {
