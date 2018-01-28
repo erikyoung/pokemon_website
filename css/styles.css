@@ -1,6 +1,9 @@
 body {
 	padding-bottom: 20px;
 	color: #5a5a5a;
+	min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .team .col-lg-4{
@@ -10,6 +13,16 @@ body {
 
 .team h2 {
 	color: rgba(50,50,50,0.8);
+}
+
+.bottom-row-content {
+	margin-left: 20px;
+}
+
+.content-image {
+	border-radius: 20px;
+	padding: 40px;
+	border: 0.5px solid black;
 }
 
 .team p {
@@ -61,6 +74,10 @@ body {
 	background-color: #777;
 }
 
+.content {
+	margin-right: 20px;
+}
+
 .carousel-inner > .item > img {
 	position: absolute;
 	height: 500px;
@@ -69,10 +86,16 @@ body {
 	left:0;
 }
 
-h1 {
-	font-family: ;
+
+html {
+  height: 100%;
 }
 
-h2 {
-	font-family: ;
+.pull-right {
+	margin-right: 20px;
 }
+
+.bottom-stuff {
+	margin: 20px;
+}
+
